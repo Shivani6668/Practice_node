@@ -9,6 +9,8 @@ app.use(bodyparse.json())
 
 app.use("/person",personRoutes)
 app.use("/menu",menuRoutes)
+
+// Listen server
 app.listen(1000,()=>{
     console.log("server is started port 1000");
 })
