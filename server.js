@@ -7,7 +7,10 @@ const menuRoutes = require('./routes/menuRoutes')
 
 app.use(bodyparse.json())
 
+//person routes
 app.use("/person",personRoutes)
+
+// menuItem routes
 app.use("/menu",menuRoutes)
 
 // Listen server
